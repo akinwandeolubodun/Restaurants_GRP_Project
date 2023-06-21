@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.slide2{
+    background-image: url("https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/62441Korean_Short_Rib_Bahn_Mi_Charlotte_Photo_Courtesy_of_CO.jpg?w=1200&fit=max&auto=compress,format");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0, .9);
+    color: white;
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;    
+    height: 100% !important;
+}
+
+.carousel-item::before, .slide2::before, .slide3::before, .slide4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.slide3{
+    background-image: url("https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/30626masa_long.jpg?w=1200&fit=max&auto=compress,format");
+    background-size: cover;
+    color: white;
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;    
+}
+
+.slide4{
+    background-image: url("https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/22264Charlotte_Interior.jpg?w=1200&fit=max&auto=compress,format");
+    background-size: cover;
+    color: white;
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;    
+}
+
+.slide6{
+    display: flex;
+    padding: 0%;
+}
+.imagepart{
+    max-width:50%;
+    max-height:50%;
+    object-fit: cover;
+    display: flex;
+}
+.imagepart img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+.hero-text{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        padding: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+.hero-text h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-text p {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
