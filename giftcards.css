@@ -1,0 +1,37 @@
+label {
+    font-weight: 500;   
+}
+
+.chopsticksdrk {
+    height: 15px;
+    width: 100px;
+    color: red;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 3rem 0;
+    margin: auto;
+}
+
+section a img{
+    width: 335px;
+    height: auto;
+}
+
+.foot{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.hospitality{
+    transition: opacity .5s linear 0s;
+}
+
+.hospitality:hover{
+    opacity: 55%;
+}
